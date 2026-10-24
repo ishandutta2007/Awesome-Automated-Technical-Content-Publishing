@@ -60,7 +60,7 @@ The table below lists leading commercial SaaS and hosted platforms, sorted in de
 
 ## 🛠️ Open-Source GitHub Projects & Engines
 
-The following curated open-source technical publishing pipelines, markup compilers, static site generators, and document layout engines are sorted in descending order by **GitHub Stars_Count**:
+The following curated open-source technical publishing pipelines, markup compilers, static site generators, and document layout engines are sorted in descending order by **GitHub_Stars_Count**:
 
 - **[Docusaurus](https://github.com/facebook/docusaurus)** [![GitHub_Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers)  
   🦖 **Modern static documentation website generator built by Meta with React.** Full MDX support, out-of-the-box documentation versioning, algorithmic search indexing (Algolia), and automated static site compilation for developer docs and technical guides.
