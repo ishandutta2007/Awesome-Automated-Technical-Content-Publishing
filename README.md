@@ -149,3 +149,5 @@ If you find this curated ecosystem resource helpful for your projects, architect
 <p align="center">
   <sub>Curated with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the global technical documentation community.</sub>
 </p>
+# Awesome-Automated-Technical-Content-Publishing
+
