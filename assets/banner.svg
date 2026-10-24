@@ -159,7 +159,7 @@
     <!-- Bottom Metrics / Stat ribbon -->
     <g transform="translate(600, 355)" text-anchor="middle">
       <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b" letter-spacing="0.05em">
-        ENTERPRISE SAAS PRICING &amp; VALUATIONS &nbsp;•&nbsp; 100% TRANSPARENT TIERS &nbsp;•&nbsp; TOP OPEN-SOURCE COMPILERS
+        ENTERPRISE SAAS PRICING &amp; VALUATIONS &#160;•&#160; 100% TRANSPARENT TIERS &#160;•&#160; TOP OPEN-SOURCE COMPILERS
       </text>
     </g>
   </g>
