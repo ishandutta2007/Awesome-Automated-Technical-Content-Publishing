@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0a0d14" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2937" stroke-width="1" stroke-opacity="0.45" />
+    </pattern>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="50" result="blur" />
+    </filter>
+
+    <filter id="cardGlow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#38bdf8" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { opacity: 0.25; transform: scale(1); }
+      50% { opacity: 0.45; transform: scale(1.15); }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes dashCycle {
+      to { stroke-dashoffset: -40; }
+    }
+    @keyframes beamSweep {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(200%); }
+    }
+    .orb-1 {
+      animation: pulseOrb 8s ease-in-out infinite alternate;
+      transform-origin: 200px 100px;
+    }
+    .orb-2 {
+      animation: pulseOrb 10s ease-in-out infinite alternate;
+      transform-origin: 1000px 300px;
+    }
+    .pill-floating-1 {
+      animation: floatPill 6s ease-in-out infinite;
+    }
+    .pill-floating-2 {
+      animation: floatPill 7s ease-in-out infinite 1.5s;
+    }
+    .pill-floating-3 {
+      animation: floatPill 5.5s ease-in-out infinite 3s;
+    }
+    .flow-line {
+      stroke-dasharray: 6 6;
+      animation: dashCycle 2.5s linear infinite;
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+    .text-mono {
+      font-family: 'SF Mono', Consolas, Monaco, 'Courier New', monospace;
+    }
+  </style>
+
+  <!-- Background base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Dynamic ambient glowing lights (Background) -->
+  <circle class="orb-1" cx="220" cy="120" r="160" fill="#0284c7" filter="url(#softGlow)" />
+  <circle class="orb-2" cx="980" cy="280" r="180" fill="#7c3aed" filter="url(#softGlow)" />
+  <circle cx="600" cy="200" r="120" fill="#4f46e5" opacity="0.15" filter="url(#softGlow)" />
+
+  <!-- Dynamic animated data flow pipeline (Subtle Background) -->
+  <g opacity="0.4">
+    <path class="flow-line" d="M 80 80 Q 300 20 600 80 T 1120 80" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path class="flow-line" d="M 80 340 Q 350 400 650 340 T 1120 340" fill="none" stroke="#a855f7" stroke-width="2" />
+  </g>
+
+  <!-- Content Layer (Clear Foreground) -->
+  <g transform="translate(0, 0)">
+    <!-- Top Category Tag -->
+    <g transform="translate(600, 75)" text-anchor="middle">
+      <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5" />
+      <circle cx="-116" cy="0" r="4" fill="#38bdf8" />
+      <text x="-98" y="5" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.08em">CURATED ECOSYSTEM 2026</text>
+    </g>
+
+    <!-- Main Title (Gradient Foreground) -->
+    <text class="text-title" x="600" y="145" text-anchor="middle" font-size="44" fill="url(#primaryGrad)">
+      Awesome Automated Technical Content Publishing
+    </text>
+
+    <!-- Subtitle (Clear, readable, high contrast) -->
+    <text x="600" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#94a3b8">
+      DITA/XML Publishing • Component Content Management Systems (CCMS) • Multi-Channel Pipelines
+    </text>
+
+    <!-- Dynamic Interactive Feature Badges / Pills -->
+    <!-- Pill 1: DITA-OT -->
+    <g class="pill-floating-1" transform="translate(180, 240)">
+      <rect width="180" height="52" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5" filter="url(#cardGlow)" />
+      <rect x="14" y="16" width="20" height="20" rx="6" fill="#0284c7" />
+      <text class="text-mono" x="24" y="30" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">&lt;/&gt;</text>
+      <text x="44" y="27" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">DITA-OT &amp; XML</text>
+      <text x="44" y="42" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Standard Engines</text>
+    </g>
+
+    <!-- Pill 2: CCMS & Docs-as-Code -->
+    <g class="pill-floating-2" transform="translate(390, 240)">
+      <rect width="195" height="52" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.5" filter="url(#cardGlow)" />
+      <rect x="14" y="16" width="20" height="20" rx="6" fill="#4f46e5" />
+      <text x="24" y="31" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">⚙</text>
+      <text x="44" y="27" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Enterprise CCMS</text>
+      <text x="44" y="42" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Structured Workflows</text>
+    </g>
+
+    <!-- Pill 3: Docs-as-Code -->
+    <g class="pill-floating-3" transform="translate(615, 240)">
+      <rect width="195" height="52" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1.5" filter="url(#cardGlow)" />
+      <rect x="14" y="16" width="20" height="20" rx="6" fill="#9333ea" />
+      <text x="24" y="31" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">⚡</text>
+      <text x="44" y="27" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Docs-as-Code</text>
+      <text x="44" y="42" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Sphinx • Typst • MkDocs</text>
+    </g>
+
+    <!-- Pill 4: Multi-Channel -->
+    <g class="pill-floating-1" transform="translate(840, 240)">
+      <rect width="180" height="52" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5" filter="url(#cardGlow)" />
+      <rect x="14" y="16" width="20" height="20" rx="6" fill="#0891b2" />
+      <text x="24" y="31" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">📦</text>
+      <text x="44" y="27" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Omnichannel Out</text>
+      <text x="44" y="42" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">PDF • HTML5 • ePUB</text>
+    </g>
+
+    <!-- Bottom Metrics / Stat ribbon -->
+    <g transform="translate(600, 355)" text-anchor="middle">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b" letter-spacing="0.05em">
+        ENTERPRISE SAAS PRICING &amp; VALUATIONS &nbsp;•&nbsp; 100% TRANSPARENT TIERS &nbsp;•&nbsp; TOP OPEN-SOURCE COMPILERS
+      </text>
+    </g>
+  </g>
+</svg>

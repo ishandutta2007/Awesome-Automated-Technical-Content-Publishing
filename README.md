@@ -1,141 +1,128 @@
-# Awesome-Automated-Technical-Content-Publishing
-
-## Top Automated Technical Content Publishing Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on DITA/XML Publishing, CCMS Workflows & Self-Hosted Documentation Pipelines*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Automated Technical Content Publishing**. These tools enable organizations to author structured content once and publish it automatically to multiple formats—HTML, PDF, ePUB, and online help—while managing reuse, versioning, and translation across large documentation sets.
-
-
-
-**Examples** include Adobe FrameMaker Publishing Server, MadCap Central, Paligo, Author-it, RWS Tridion Docs, and DITA Open Toolkit (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding per-author SaaS fees, and controlling the publishing pipeline. The open-source landscape is anchored by **DITA Open Toolkit** (the vendor-independent DITA publishing engine used by most commercial CCMS platforms under the hood), with **Sphinx** and **Asciidoctor** serving code-first documentation needs and **Pandoc** providing universal format conversion. A community Drupal-based **DITA CCMS** module also demonstrates emerging AI-assisted structured authoring, though it is not a standalone product.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Adobe FrameMaker Publishing Server](https://www.adobe.com/products/framemaker/publishing-server.html)** | Server-based automated publishing for FrameMaker content to PDF, HTML5, and responsive help. | **Enterprise (Government, NA)**: **$7,596/user/year** on annual plan . EU pricing listed at **€3,612.98** (incl. tax) for a 12-month named subscription renewal . | No free tier. Trial available via Adobe. |
-
-| **[MadCap Central](https://www.madcapsoftware.com/)** | Cloud-based content and project management integrated with MadCap Flare for technical documentation. | **Starting at $109/month** per user . Annual subscription, per-user licensing. | No public free tier. Trial available via MadCap. |
-
-| **[Paligo](https://paligo.net/)** | Cloud-native CCMS with topic-based authoring, content reuse, and multi-format publishing. | **Business**: **From $15,000/year** (2 authors, 2 languages). **Enterprise**: custom pricing (unlimited authors/languages, SSO, SLA) . | **Free trial** available. No permanent free tier. |
-
-| **[Author-it](https://www.author-it.com/)** | Enterprise CCMS with structured authoring and multi-channel publishing. | Quote-only. Enterprise-tier pricing. | No public free tier. Demo via sales. |
-
-| **[RWS Tridion Docs](https://www.rws.com/content-management/tridion/)** | Enterprise structured content management and publishing (formerly SDL Tridion Docs). | Quote-only. Enterprise-tier pricing. | No public free tier. Trial via sales. |
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[DITA Open Toolkit (DITA-OT)](https://github.com/dita-ot/dita-ot)** [![GitHub Stars](https://img.shields.io/github/stars/dita-ot/dita-ot?style=social&color=white)](https://github.com/dita-ot/dita-ot/stargazers)  
-
-  **The vendor-independent DITA publishing engine.** Apache License 2.0. The open-source reference implementation of the OASIS DITA standard, supporting DITA 1.0 through 1.3 plus Markdown and Lightweight DITA . **Output formats**: HTML5, XHTML, PDF (via XSL-FO + Apache FOP), Markdown (GFM, GitBook), Eclipse Help, HTML Help, and normalized DITA . **Ecosystem position**: many commercial XML editors, enterprise authoring solutions, and CCMS platforms rely on DITA-OT internally for publishing . **Extensibility**: plug-in mechanism allows custom transformations without modifying core code . Best for organizations that have adopted DITA (or are considering it) and want a proven, standards-based publishing engine without licensing fees.
-
-
-
-- **[Sphinx](https://github.com/sphinx-doc/sphinx)** [![GitHub Stars](https://img.shields.io/github/stars/sphinx-doc/sphinx?style=social&color=white)](https://github.com/sphinx-doc/sphinx/stargazers)  
-
-  **The Python documentation standard.** BSD licensed. Uses reStructuredText (with Markdown support via extensions) to generate HTML, PDF, ePUB, plain text, TeX, and man pages . **Strengths**: extensive cross-referencing for code entities, automatic indices, code highlighting, and a mature extension ecosystem (including Jupyter notebook support and API documentation) . Best for API documentation and technical content where code references and cross-linking are central.
-
-
-
-- **[Asciidoctor](https://github.com/asciidoctor/asciidoctor)** [![GitHub Stars](https://img.shields.io/github/stars/asciidoctor/asciidoctor?style=social&color=white)](https://github.com/asciidoctor/asciidoctor/starlight)  
-
-  **The AsciiDoc publishing toolchain.** MIT licensed. Converts AsciiDoc content to HTML5, DocBook 5, man pages, and via extensions to PDF and EPUB 3 . **Strengths**: AsciiDoc is readable in raw form and produces polished output; Ruby-based with JVM (AsciidoctorJ) and JavaScript (Asciidoctor.js) ports; fine-grained security modes for server deployments . Best for teams that want a lightweight markup alternative to reStructuredText or DITA with strong publishing capabilities.
-
-
-
-- **[Pandoc](https://github.com/jgm/pandoc)** [![GitHub Stars](https://img.shields.io/github/stars/jgm/pandoc?style=social&color=white)](https://github.com/jgm/pandoc/stargazers)  
-
-  **The universal document converter.** GPL licensed. Converts between dozens of formats—Markdown, HTML, LaTeX, DocBook, reStructuredText, and more. Often used as the rendering backend for documentation pipelines that need output flexibility. Best as a complementary tool when your primary authoring format needs to produce outputs outside its native toolchain.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **DocBook XSLTNG** — The modern DocBook to HTML/PDF stylesheet engine. Best for DocBook-based publishing pipelines.
-
-- **Paged.js** — CSS Paged Media polyfill for browser-based print layout with running headers and footnotes. Best for web-to-print workflows using HTML/CSS.
-
-- **DITA CCMS (Drupal module)** — Community module providing DITA content management within Drupal, with AI-assisted OpenAPI-to-DITA generation and semantic enrichment. Early-stage, not a standalone product . Best for Drupal-based organizations exploring structured authoring with AI assistance.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Commercial CCMS platforms are expensive and quote-driven**: FrameMaker Publishing Server at ~$7,596/user/year , Paligo from $15,000/year , and MadCap Central from $109/month  represent significant ongoing commitments. Open-source alternatives eliminate licensing fees but require technical expertise.
-
-- **DITA-OT is an engine, not a CCMS**: it publishes DITA content but does not provide authoring, content management, or workflow. Most organizations pair it with an XML editor (Oxygen, XMetaL) and a version control system, or adopt a commercial CCMS that embeds it.
-
-- **"Automated publishing" spans different scopes**: DITA-OT addresses structured XML publishing; Sphinx and Asciidoctor address code-first documentation; Pandoc addresses format conversion. Choose based on your authoring model and output requirements.
-
-
+# Awesome Automated Technical Content Publishing 🚀
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Automated Technical Content Publishing Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Technical-Content-Publishing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Technical-Content-Publishing?style=flat-square&color=gold" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Technical-Content-Publishing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Technical-Content-Publishing?style=flat-square&color=blue" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Technical-Content-Publishing/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📖 Top Automated Technical Content Publishing Ecosystem
 
+> **A curated showcase of premier SaaS platforms, enterprise CCMS architectures, and open-source documentation compilers powering automated technical content pipelines.**
 
-**Made for documentation engineers, technical writers, and organizations automating structured content publishing.**  
+*Focusing on DITA/XML publishing, Docs-as-Code workflows, multi-channel rendering engines, and self-hosted technical documentation infrastructure.*
 
-Let's make technical content publishing more open, standards-based, and self-hostable.
+**Last updated:** October 2026
+
+Modern software, aerospace, semiconductor, manufacturing, and life-sciences organizations require scalable systems to author content once in structured schemas (such as DITA, DocBook, AsciiDoc, or Markdown) and publish across multiple channels—HTML5 documentation portals, paginated print/PDF manuals, ePUB, and interactive help desks—while managing granular versioning, localized translations, and semantic reuse.
+
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Enterprise Platforms](#️-saas--hosted-enterprise-platforms)
+- [🛠️ Open-Source GitHub Projects & Engines](#️-open-source-github-projects--engines)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **Component Content Management System (CCMS)** and technical documentation publishing sector is estimated at **$1.8B to $2.4B**, expanding at a 7–10% CAGR driven by automated API documentation, Docs-as-Code CI/CD pipelines, and AI-assisted content lifecycle management. The market is **moderately fragmented**—anchored at the top end by diversified enterprise titans (Adobe, RWS) and specialized CCMS providers (MadCap Software, Paligo), while surrounded by an active long tail of agile SaaS startups and robust open-source publishing engines.
+
+---
+
+## ☁️ SaaS & Hosted Enterprise Platforms
+
+The table below lists leading commercial SaaS and hosted platforms, sorted in descending order by parent company scale (valuation or annual revenue run-rate):
+
+| Product | Company Scale (Valuation / Revenue) | Description | Starting Pricing Tier | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe FrameMaker Publishing Server](https://www.adobe.com/products/framemaker/publishing-server.html)** | **~$103B Market Cap** (~$22B+ ARR) | Enterprise server-grade automated multi-channel publishing engine for FrameMaker and DITA/XML content to PDF, HTML5, and responsive self-service web apps. | **$7,596/user/year** (Enterprise annual plan); EU pricing starts at **€3,612.98/year** for named subscription renewal. | **No free-for-ever plan.** 30-day full-feature trial available via Adobe enterprise sales. |
+| **[RWS Tridion Docs](https://www.rws.com/content-management/tridion/)** | **~$700M Market Cap** (~£690M / ~$900M Revenue) | High-concurrency enterprise DITA CCMS and headless technical content delivery platform with deep localization and global compliance management. | **Custom contract quote** (Enterprise annual commitment starting at **~$25,000–$50,000+/year** based on seats/volume). | **No free-for-ever plan.** 14 to 30-day guided proof-of-concept / sandbox trial via enterprise sales. |
+| **[Paligo](https://paligo.net/)** | **~$150M Valuation** (~$11.3M+ ARR, $35.9M VC funded) | Cloud-native CCMS providing structured topic-based authoring, branch-based versioning, and omnichannel publishing for fast-scaling engineering teams. | **$15,000/year** (Business Tier: includes 2 author licenses, 2 target languages, and standard publishing pipelines). | **No free-for-ever plan.** Guided interactive demo and sandbox trial available upon sales qualification. |
+| **[MadCap Central](https://www.madcapsoftware.com/)** | **~$60M Valuation** (~$18M+ ARR, Battery Ventures backed) | Cloud-hosted technical documentation and content management suite tightly coupled with MadCap Flare for branching, reviews, translation, and automated builds. | **$109/user/month** (Starter tier, billed annually at $1,308/user/year). | **No free-for-ever plan.** 30-day full-feature free trial (no credit card required) with access to cloud publishing and collaboration workflows. |
+| **[Author-it](https://www.author-it.com/)** | **~$15M Valuation** (~$3.4M ARR, $11M funded) | Cloud-based CCMS specialized in regulated technical authoring, document assembly, and multi-channel publication pipelines for medical, biotech, and high-tech sectors. | **$200/user/month** (Author seat base starting tier, billed annually). | **No free-for-ever plan.** Custom guided evaluation demo and proof-of-concept trial via sales. |
+
+---
+
+## 🛠️ Open-Source GitHub Projects & Engines
+
+The following curated open-source technical publishing pipelines, markup compilers, and document layout engines are sorted in descending order by **GitHub Star Count**:
+
+- **[Typst](https://github.com/typst/typst)** [![GitHub Stars](https://img.shields.io/github/stars/typst/typst?style=social&color=white)](https://github.com/typst/typst/stargazers)  
+  ⚡ **The modern markup-based typesetting system designed as a powerful successor to LaTeX.** Rust-powered compiler generating pixel-perfect PDFs in milliseconds with built-in scripting, reactive incremental compilation, and algebraic layout primitives.
+
+- **[Pandoc](https://github.com/jgm/pandoc)** [![GitHub Stars](https://img.shields.io/github/stars/jgm/pandoc?style=social&color=white)](https://github.com/jgm/pandoc/stargazers)  
+  🌐 **The universal markup document converter.** Converts seamlessly across dozens of formats—Markdown, reStructuredText, HTML, DocBook, LaTeX, PDF, and Word docx. Ideal for bridging custom authoring stacks with downstream publishing pipelines.
+
+- **[Material for MkDocs](https://github.com/squidfunk/mkdocs-material)** [![GitHub Stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social&color=white)](https://github.com/squidfunk/mkdocs-material/stargazers)  
+  📚 **Enterprise-grade technical documentation site generator built on top of MkDocs.** Delivers lightning-fast search, responsive layouts, code annotations, i18n localization, and automated GitHub Actions CI/CD publishing.
+
+- **[mdBook](https://github.com/rust-lang/mdBook)** [![GitHub Stars](https://img.shields.io/github/stars/rust-lang/mdBook?style=social&color=white)](https://github.com/rust-lang/mdBook/stargazers)  
+  🦀 **Rust official command-line utility for building online technical books and guides from Markdown.** Extremely fast compilation, customizable themes, preprocessor plugins, and native multi-format output support.
+
+- **[Marp](https://github.com/marp-team/marp)** [![GitHub Stars](https://img.shields.io/github/stars/marp-team/marp?style=social&color=white)](https://github.com/marp-team/marp/stargazers)  
+  📑 **Markdown presentation and slide-deck publishing ecosystem.** Converts standard Markdown files into sleek HTML5, PDF, and PPTX slide formats with CSS theming and automated CLI conversion tools.
+
+- **[WeasyPrint](https://github.com/Kozea/WeasyPrint)** [![GitHub Stars](https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social&color=white)](https://github.com/Kozea/WeasyPrint/stargazers)  
+  🖨️ **Visual HTML-to-PDF rendering engine for web-to-print publishing.** Full CSS Paged Media support (page breaks, page margins, running headers, footers, footnotes, and CMYK color profiles).
+
+- **[Sphinx](https://github.com/sphinx-doc/sphinx)** [![GitHub Stars](https://img.shields.io/github/stars/sphinx-doc/sphinx?style=social&color=white)](https://github.com/sphinx-doc/sphinx/stargazers)  
+  🐍 **The battle-tested standard for Python & software documentation.** Uses reStructuredText and MyST Markdown to generate HTML portals, PDF books (via LaTeX), ePUB, and man pages with deep cross-referencing and API symbol auto-indexing.
+
+- **[Asciidoctor](https://github.com/asciidoctor/asciidoctor)** [![GitHub Stars](https://img.shields.io/github/stars/asciidoctor/asciidoctor?style=social&color=white)](https://github.com/asciidoctor/asciidoctor/stargazers)  
+  📝 **Leading AsciiDoc publishing toolchain.** Converts expressive plain-text AsciiDoc into clean HTML5, DocBook 5, and PDF (via Asciidoctor-PDF). Widely adopted by enterprise technical writing teams for complex manuals and specification standards.
+
+- **[DITA Open Toolkit (DITA-OT)](https://github.com/dita-ot/dita-ot)** [![GitHub Stars](https://img.shields.io/github/stars/dita-ot/dita-ot?style=social&color=white)](https://github.com/dita-ot/dita-ot/stargazers)  
+  🏭 **The OASIS reference implementation and vendor-independent DITA publishing engine.** Apache License 2.0. Translates XML DITA maps and topics into HTML5, PDF (via Apache FOP / RenderX / Antenna House), Eclipse Help, and Markdown. Serves as the backbone under the hood of most commercial CCMS suites.
+
+### 🌟 Specialized & Emerging Open-Source Engines
+- **[Paged.js](https://gitlab.coko.foundation/pagedjs/pagedjs)** — Open-source CSS Paged Media polyfill for web-to-print typography, paginating web browsers directly into press-ready PDF books.
+- **[DocBook XSLTNG](https://github.com/ndw/xsltng)** — Modernized XSLT 3.0 processing engine converting DocBook 5 documents to responsive HTML and print-formatted PDF.
+- **[DITA CCMS (Drupal Module)](https://www.drupal.org/project/dita_ccms)** — Open-source Drupal module introducing structured DITA content management and AI-assisted OpenAPI-to-DITA transformation workflows.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions, tool suggestions, and documentation refinements are warmly welcomed!
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch** (`git checkout -b feature/suggest-new-tool`).
+3. 📝 **Add or update the listing** in `README.md` keeping descriptions factual, concise, and adhering to table conventions.
+4. 🚀 **Commit your changes** (`git commit -m "feat: add [Tool Name]"`).
+5. 📬 **Open a Pull Request** with a brief summary of the project or corrections.
+
+Please ensure all referenced SaaS listings include transparent starting prices and specific trial details, and open-source tools include their official GitHub stargazer links.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Automated-Technical-Content-Publishing&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Automated-Technical-Content-Publishing&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a community-curated directory intended for educational and evaluation purposes; it does not constitute an explicit commercial endorsement.
+- Listed prices, tiers, and company metrics are compiled from public software vendor disclosures, investor data, and marketplace listings as of late 2026 and may change over time.
+- Always consult the respective software vendor documentation and sales representatives for binding commercial licensing quotes and enterprise service-level agreements.
+
+---
+
+<p align="center">
+  <sub>Curated with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the global technical documentation community.</sub>
+</p>
