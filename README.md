@@ -60,42 +60,42 @@ The table below lists leading commercial SaaS and hosted platforms, sorted in de
 
 ## 🛠️ Open-Source GitHub Projects & Engines
 
-The following curated open-source technical publishing pipelines, markup compilers, static site generators, and document layout engines are sorted in descending order by **GitHub Star Count**:
+The following curated open-source technical publishing pipelines, markup compilers, static site generators, and document layout engines are sorted in descending order by **GitHub Stars_Count**:
 
-- **[Docusaurus](https://github.com/facebook/docusaurus)** [![GitHub Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers)  
+- **[Docusaurus](https://github.com/facebook/docusaurus)** [![GitHub_Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers)  
   🦖 **Modern static documentation website generator built by Meta with React.** Full MDX support, out-of-the-box documentation versioning, algorithmic search indexing (Algolia), and automated static site compilation for developer docs and technical guides.
 
-- **[Typst](https://github.com/typst/typst)** [![GitHub Stars](https://img.shields.io/github/stars/typst/typst?style=social&color=white)](https://github.com/typst/typst/stargazers)  
+- **[Typst](https://github.com/typst/typst)** [![GitHub_Stars](https://img.shields.io/github/stars/typst/typst?style=social&color=white)](https://github.com/typst/typst/stargazers)  
   ⚡ **The modern markup-based typesetting system designed as a powerful successor to LaTeX.** Rust-powered compiler generating pixel-perfect PDFs in milliseconds with built-in scripting, reactive incremental compilation, and algebraic layout primitives.
 
-- **[Pandoc](https://github.com/jgm/pandoc)** [![GitHub Stars](https://img.shields.io/github/stars/jgm/pandoc?style=social&color=white)](https://github.com/jgm/pandoc/stargazers)  
+- **[Pandoc](https://github.com/jgm/pandoc)** [![GitHub_Stars](https://img.shields.io/github/stars/jgm/pandoc?style=social&color=white)](https://github.com/jgm/pandoc/stargazers)  
   🌐 **The universal markup document converter.** Converts seamlessly across dozens of formats—Markdown, reStructuredText, HTML, DocBook, LaTeX, PDF, and Word docx. Ideal for bridging custom authoring stacks with downstream publishing pipelines.
 
-- **[Slate](https://github.com/slatedocs/slate)** [![GitHub Stars](https://img.shields.io/github/stars/slatedocs/slate?style=social&color=white)](https://github.com/slatedocs/slate/stargazers)  
+- **[Slate](https://github.com/slatedocs/slate)** [![GitHub_Stars](https://img.shields.io/github/stars/slatedocs/slate?style=social&color=white)](https://github.com/slatedocs/slate/stargazers)  
   📜 **Clean, responsive, three-pane API documentation generator.** Author technical REST/GraphQL API specifications in Markdown and automatically build single-page interactive technical docs with multilingual code tabs.
 
-- **[Material for MkDocs](https://github.com/squidfunk/mkdocs-material)** [![GitHub Stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social&color=white)](https://github.com/squidfunk/mkdocs-material/stargazers)  
+- **[Material for MkDocs](https://github.com/squidfunk/mkdocs-material)** [![GitHub_Stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social&color=white)](https://github.com/squidfunk/mkdocs-material/stargazers)  
   📚 **Enterprise-grade technical documentation site generator built on top of MkDocs.** Delivers lightning-fast search, responsive layouts, code annotations, i18n localization, and automated GitHub Actions CI/CD publishing.
 
-- **[mdBook](https://github.com/rust-lang/mdBook)** [![GitHub Stars](https://img.shields.io/github/stars/rust-lang/mdBook?style=social&color=white)](https://github.com/rust-lang/mdBook/stargazers)  
+- **[mdBook](https://github.com/rust-lang/mdBook)** [![GitHub_Stars](https://img.shields.io/github/stars/rust-lang/mdBook?style=social&color=white)](https://github.com/rust-lang/mdBook/stargazers)  
   🦀 **Rust official command-line utility for building online technical books and guides from Markdown.** Extremely fast compilation, customizable themes, preprocessor plugins, and native multi-format output support.
 
-- **[Marp](https://github.com/marp-team/marp)** [![GitHub Stars](https://img.shields.io/github/stars/marp-team/marp?style=social&color=white)](https://github.com/marp-team/marp/stargazers)  
+- **[Marp](https://github.com/marp-team/marp)** [![GitHub_Stars](https://img.shields.io/github/stars/marp-team/marp?style=social&color=white)](https://github.com/marp-team/marp/stargazers)  
   📑 **Markdown presentation and slide-deck publishing ecosystem.** Converts standard Markdown files into sleek HTML5, PDF, and PPTX slide formats with CSS theming and automated CLI conversion tools.
 
-- **[WeasyPrint](https://github.com/Kozea/WeasyPrint)** [![GitHub Stars](https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social&color=white)](https://github.com/Kozea/WeasyPrint/stargazers)  
+- **[WeasyPrint](https://github.com/Kozea/WeasyPrint)** [![GitHub_Stars](https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social&color=white)](https://github.com/Kozea/WeasyPrint/stargazers)  
   🖨️ **Visual HTML-to-PDF rendering engine for web-to-print publishing.** Full CSS Paged Media support (page breaks, page margins, running headers, footers, footnotes, and CMYK color profiles).
 
-- **[Sphinx](https://github.com/sphinx-doc/sphinx)** [![GitHub Stars](https://img.shields.io/github/stars/sphinx-doc/sphinx?style=social&color=white)](https://github.com/sphinx-doc/sphinx/stargazers)  
+- **[Sphinx](https://github.com/sphinx-doc/sphinx)** [![GitHub_Stars](https://img.shields.io/github/stars/sphinx-doc/sphinx?style=social&color=white)](https://github.com/sphinx-doc/sphinx/stargazers)  
   🐍 **The battle-tested standard for Python & software documentation.** Uses reStructuredText and MyST Markdown to generate HTML portals, PDF books (via LaTeX), ePUB, and man pages with deep cross-referencing and API symbol auto-indexing.
 
-- **[Asciidoctor](https://github.com/asciidoctor/asciidoctor)** [![GitHub Stars](https://img.shields.io/github/stars/asciidoctor/asciidoctor?style=social&color=white)](https://github.com/asciidoctor/asciidoctor/stargazers)  
+- **[Asciidoctor](https://github.com/asciidoctor/asciidoctor)** [![GitHub_Stars](https://img.shields.io/github/stars/asciidoctor/asciidoctor?style=social&color=white)](https://github.com/asciidoctor/asciidoctor/stargazers)  
   📝 **Leading AsciiDoc publishing toolchain.** Converts expressive plain-text AsciiDoc into clean HTML5, DocBook 5, and PDF (via Asciidoctor-PDF). Widely adopted by enterprise technical writing teams for complex manuals and specification standards.
 
-- **[DITA Open Toolkit (DITA-OT)](https://github.com/dita-ot/dita-ot)** [![GitHub Stars](https://img.shields.io/github/stars/dita-ot/dita-ot?style=social&color=white)](https://github.com/dita-ot/dita-ot/stargazers)  
+- **[DITA Open Toolkit (DITA-OT)](https://github.com/dita-ot/dita-ot)** [![GitHub_Stars](https://img.shields.io/github/stars/dita-ot/dita-ot?style=social&color=white)](https://github.com/dita-ot/dita-ot/stargazers)  
   🏭 **The OASIS reference implementation and vendor-independent DITA publishing engine.** Apache License 2.0. Translates XML DITA maps and topics into HTML5, PDF (via Apache FOP / RenderX / Antenna House), Eclipse Help, and Markdown. Serves as the backbone under the hood of most commercial CCMS suites.
 
-- **[DocBook XSLTNG](https://github.com/ndw/xsltng)** [![GitHub Stars](https://img.shields.io/github/stars/ndw/xsltng?style=social&color=white)](https://github.com/ndw/xsltng/stargazers)  
+- **[DocBook XSLTNG](https://github.com/ndw/xsltng)** [![GitHub_Stars](https://img.shields.io/github/stars/ndw/xsltng?style=social&color=white)](https://github.com/ndw/xsltng/stargazers)  
   📖 **Modernized XSLT 3.0 processing engine converting DocBook 5 documents to responsive HTML and print-formatted PDF.** Complete modular transformation framework for structured XML documentation pipelines.
 
 ### 🌟 Specialized & Emerging Open-Source Engines
