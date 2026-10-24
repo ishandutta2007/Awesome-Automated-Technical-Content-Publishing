@@ -32,6 +32,7 @@ Modern software, aerospace, semiconductor, manufacturing, and life-sciences orga
 - [☁️ SaaS & Hosted Enterprise Platforms](#️-saas--hosted-enterprise-platforms)
 - [🛠️ Open-Source GitHub Projects & Engines](#️-open-source-github-projects--engines)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [📈 Star History](#-star-history)
 - [⚠️ Disclaimer](#️-disclaimer)
 
@@ -106,6 +107,28 @@ Contributions, tool suggestions, and documentation refinements are warmly welcom
 5. 📬 **Open a Pull Request** with a brief summary of the project or corrections.
 
 Please ensure all referenced SaaS listings include transparent starting prices and specific trial details, and open-source tools include their official GitHub stargazer links.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting **Awesome Automated Technical Content Publishing**! 🌟
+
+If you find this curated ecosystem resource helpful for your projects, architecture planning, or workflow automation, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** your own tools, updates, or case studies.
+- 📢 **Share with fellow documentation engineers**, technical writers, and developer communities.
+- ☕ **Buy me a coffee / Sponsor the project**: Support ongoing research, updates, and open-source curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20Me-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors" alt="Sponsor on GitHub" />
+  </a>
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
+  </a>
+</p>
 
 ---
 
